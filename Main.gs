@@ -1,7 +1,7 @@
-var token = "5543881476:AAH8Na2dEwfBqhMqBHnjnr_j5u0i1g7vbFk";//token bot id from telegram
-var SheetID = "1UnpvI-Ca9YkJyMQBSzboBxEVTqx4aF5Q1wdg7xiei3s";// sheet id
+var token = "token_bot_id";//token bot id from telegram
+var SheetID = "sheet_id";// sheet id
 var url = "https://api.telegram.org/bot" + token;
-var webAppUrl = "https://script.google.com/macros/s/AKfycbzcw_z8WBOCIkKSXKThkJDNMAlxABUgaIxLFuY9FyyvSRUyAQeBA0UEJGxxUm7zZf1I/exec";//Web App URL adress from deployment
+var webAppUrl = "web_app_url_hook";//Web App URL adress from deployment
 
 function setWebhook() {
   var response = UrlFetchApp.fetch(url + "/setWebhook?url=" + webAppUrl);

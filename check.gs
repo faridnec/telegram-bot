@@ -1,4 +1,4 @@
-var SheetID = "1UnpvI-Ca9YkJyMQBSzboBxEVTqx4aF5Q1wdg7xiei3s"; // Spreadsheet id 
+var SheetID = "sheet_id"; // Spreadsheet id 
 
 function AmbilData() {
   var rangeName = 'Simpan!A2:O'; //sheet name of Google Spreadsheet
